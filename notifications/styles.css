@@ -1,0 +1,51 @@
+/* styles.css */
+
+.notification-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.notification-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.notification-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.notification-form input[type="text"],
+.notification-form textarea,
+.notification-form input[type="date"],
+.notification-form input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+    font-size: 14px;
+}
+
+.notification-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.notification-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.notification-form textarea {
+    height: 100px;
+    resize: vertical; /* Allows vertical resizing of textarea */
+}
